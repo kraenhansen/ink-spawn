@@ -1,0 +1,68 @@
+{
+  "name": "ink-spawn",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Component for Ink, spawning child processes",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "lint": "eslint",
+    "example:sequential": "clear && tsx ./src/examples/sequential.tsx",
+    "example:parallel": "clear && tsx ./src/examples/parallel.tsx",
+    "example:silent": "clear && tsx ./src/examples/silent.tsx",
+    "example:failing": "clear && tsx ./src/examples/sequential.tsx",
+    "example:composed": "clear && tsx ./src/examples/composed.tsx",
+    "example:text": "clear && tsx ./src/examples/text.tsx"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kraenhansen/bufout.git"
+  },
+  "keywords": [
+    "stdio",
+    "stdout",
+    "stderr",
+    "buffer",
+    "output",
+    "spinner",
+    "spinners",
+    "prefix"
+  ],
+  "author": "Kræn Hansen <mail@kraenhansen.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kraenhansen/bufout/issues"
+  },
+  "homepage": "https://github.com/kraenhansen/bufout#readme",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "ink": ">=4.0.0"
+  },
+  "dependencies": {
+    "bufout": "^0.3.1",
+    "ink-spinner": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@tsconfig/node18": "18.2.4",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^18",
+    "@types/react": "^18",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "ink": "^5.1.0",
+    "mocha": "^10.8.2",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "tsx": "^4.19.2",
+    "typescript": "5.6.3",
+    "typescript-eslint": "^8.15.0"
+  }
+}

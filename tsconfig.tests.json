@@ -1,0 +1,11 @@
+{
+  "extends": ["@tsconfig/node18"],
+  "compilerOptions": {
+    "composite": true,
+    "types": ["node", "mocha"],
+    "noEmit": true
+  },
+  "include": ["src/**/*.test.ts", "src/test-utils"],
+  "exclude": [],
+  "references": [{ "path": "./tsconfig.src.json" }]
+}
