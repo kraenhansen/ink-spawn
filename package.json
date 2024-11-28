@@ -23,9 +23,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kraenhansen/bufout.git"
+    "url": "git+https://github.com/kraenhansen/ink-spawn.git"
   },
   "keywords": [
+    "ink",
+    "spawn",
     "stdio",
     "stdout",
     "stderr",
