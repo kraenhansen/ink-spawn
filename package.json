@@ -1,6 +1,6 @@
 {
   "name": "ink-spawn",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "description": "Component for Ink, spawning child processes",
   "main": "dist/index.js",
