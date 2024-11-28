@@ -2,7 +2,7 @@
 
 Component for [Ink](https://github.com/vadimdemedes/ink), spawning child processes.
 
-[![ink-spawn combined example](https://github.com/kraenhansen/ink-spawn/raw/refs/heads/main/docs/ink-spawn-combined-example.gif)](https://github.com/user-attachments/assets/3b8c0579-f825-4021-98fe-686540965778)
+[![ink-spawn combined example](https://github.com/kraenhansen/ink-spawn/raw/refs/heads/main/docs/ink-spawn-combined-example.gif)](https://github.com/user-attachments/assets/e8f3285f-ba87-4abc-9074-a5ab71e26305)
 
 ```tsx
 <>
