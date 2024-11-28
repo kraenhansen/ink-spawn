@@ -2,9 +2,7 @@
 
 Component for [Ink](https://github.com/vadimdemedes/ink), spawning child processes.
 
-<video controls autoplay width="375">
-  <source src="./docs/ink-spawn-combined-example.mov" type="video/mp4">
-</video>
+[![ink-spawn combined example](https://github.com/kraenhansen/ink-spawn/raw/refs/heads/main/docs/ink-spawn-combined-example.gif)](https://github.com/user-attachments/assets/3b8c0579-f825-4021-98fe-686540965778)
 
 ```tsx
 <>
