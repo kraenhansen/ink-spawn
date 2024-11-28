@@ -6,7 +6,7 @@ Component for [Ink](https://github.com/vadimdemedes/ink), spawning child process
 
 ```tsx
 <>
-  <Text>Combined example</Text>
+  <Text>Composed example</Text>
   <Script>
     <Spawn command="echo" args={["task 1", "&&", "sleep", "1"]} shell />
     <Script parallel>
